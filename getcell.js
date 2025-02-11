@@ -19,7 +19,7 @@
               el.src = value || 'https://static.bangkokhospital.com/uploads/2025/02/default-image.png';
             } else if (el.tagName === 'A') {
               el.href = value || '#';
-              //el.textContent = value || 'Click here'; // Display URL or fallback text
+              //el.textContent = value || 'click'; // Display URL or fallback text
             } else {
               el.textContent = value;
             }
